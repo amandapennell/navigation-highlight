@@ -1,4 +1,95 @@
 html {
-
+  box-sizing: border-box;
+  font-family: Georgia, serif;
+  line-height: 1.5;
+  color: #2f2d13;
 }
-font-family: 'Sigmar One', cursive;
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  background-color: #ffe500;
+  margin: 0;
+  padding: 0;
+}
+
+header h1 {
+  font-family: "Sigmar One", cursive;
+  color: #b20953;
+  font-size: 3rem;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  font-size: 1.125rem;
+  color: #fff;
+  background-color: #b2a212;
+  text-decoration: none;
+  margin: 0;
+  padding: .2em .5em .3em;
+  border-radius: 4px;
+}
+
+nav {
+  margin: 0;
+  padding: .75em 0;
+}
+
+nav a:hover {
+  background-color: #cc1465;
+  text-decoration: none;
+}
+
+.current {
+  background-color: #cc1465;
+}
+
+nav ul {
+  margin: .3rem;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  padding: 0 .75em;
+}
+
+img {
+  width: 100%;
+}
+
+main h2 {
+  font-family: "Sigmar One", cursive;
+  font-size: 1.875rem;
+  color: #b20953;
+}
+
+main p {
+  font-size: 1.125rem;
+}
+
+footer {
+  background-color: #ffe500;
+  font-size: .75rem;
+  text-align: center;
+  padding: .75em;
+}
+
+footer p  {
+  margin: .3rem;
+}
